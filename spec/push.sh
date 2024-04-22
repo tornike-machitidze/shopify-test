@@ -5,4 +5,4 @@ fi
 shopify auth logout;
 echo "----- PUSHING TO SHOPIFY";
 
-shopify theme push --store $DEV_THEME_STORE --theme $DEV_THEME_ID --password $DEV_THEME_PASSWORD
+shopify theme push --store $DEV_THEME_STORE --theme $DEV_THEME_ID --password $DEV_THEME_PASSWORD --allow-live
