@@ -25,6 +25,6 @@ jobs:
           DEV_THEME_STORE: '${{ secrets.DEV_THEME_STORE }}'
           # Password generated from Theme Access app
           DEV_THEME_PASSWORD: ${{ secrets.DEV_THEME_PASSWORD }}
-          DEVELEOPMENT_THEME_ID: ${{ secrets.DEV_THEME_ID }}
+          DEV_THEME_ID: ${{ secrets.DEV_THEME_ID }}
           SHOPIFY_CLI_TTY: 0
         run: npm run push
